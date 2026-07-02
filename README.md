@@ -25,6 +25,7 @@ Example:
 ```
 GET /api/v1/mscr/tracks?q=kannu
 ```
+<img width="1920" height="1040" alt="1" src="https://github.com/user-attachments/assets/bb293061-48b9-489b-a8fe-40791b8f47c6" />
 
 This endpoint returns a list of matching tracks along with metadata, including the audio asset identifier required for the next step.
 
@@ -37,6 +38,7 @@ After selecting a song, the client sends a POST request to retrieve additional i
 ```
 POST /api/v1/clips/music/
 ```
+<img width="1920" height="1040" alt="2" src="https://github.com/user-attachments/assets/138baa34-8d3b-4e31-9346-78f6647b8c41" />
 
 This request requires:
 
@@ -57,10 +59,12 @@ The browser then requests the media directly from Instagram's CDN.
 ```
 GET https://instagram...cdn.../audio.mp4
 ```
+<img width="1920" height="1040" alt="3" src="https://github.com/user-attachments/assets/b860e412-9386-4707-9fc7-df8161dac3dd" />
 
 The returned URL is used by the Instagram client for audio playback.
 
 ---
+<img width="983" height="977" alt="4" src="https://github.com/user-attachments/assets/63a9240e-e3b2-4f1d-b4d0-4e5741ee6af0" />
 
 ## Request Flow
 
