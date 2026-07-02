@@ -1,5 +1,3 @@
-# Instagram-Story-Music-API-Research
-
 # Instagram Story Music API Research
 
 > **Educational research project** demonstrating how the Instagram Story Music feature retrieves and plays music.
